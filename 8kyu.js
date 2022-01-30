@@ -15,4 +15,15 @@ function isDivideBy(number, a, b) {
   }
 }
 
+// Given a year, return the century it is in
+
+
+// We need a function that can transform a number into a string
+function numberToString(num) {
+  let number = 67;
+  let str = number.toString();
+  return str;
+}
+
+
 
