@@ -1,12 +1,10 @@
-// Function 1 - hello world
-// Write a function "greet" that returns "hello world"
+// Function 1 - hello world.  Write a function "greet" that returns "hello world"
 function greet( ){
   return "hello world!";
 }
 
 
-/* Your task is to create the functionisDivideBy (or is_divide_by) 
-to check if an integer number is divisible by both integers a and b. */
+/* Your task is to create the functionisDivideBy (or is_divide_by) to check if an integer number is divisible by both integers a and b. */
 function isDivideBy(number, a, b) {
   if (number % a === 0 && number % b === 0){
     return true;
@@ -14,6 +12,7 @@ function isDivideBy(number, a, b) {
     return false;
   }
 }
+
 
 /* Your coworker was supposed to write a simple helper function to capitalize a string (that contains a single word) before they went on vacation.
 Unfortunately, they have now left and the code they gave you doesn't work. Fix the helper function they wrote so that it works as 
@@ -26,7 +25,6 @@ function capitalizeWord(word) {
             return a;
         } 
 console.log(capitalizeWord('word'));
-
 
 
 // Given a year, return the century it is in
@@ -48,7 +46,6 @@ function numberToString(num) {
 }
 
 
-
 // Convert a Number to a String
 var stringToNumber = function(str){
   return Number(str);
@@ -66,8 +63,16 @@ var stringToNumber = function(str){
 
 
 // Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+function even_or_odd(number) {
+  if (number % 2 == 0){
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
 
 
+// Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
 
 
 
