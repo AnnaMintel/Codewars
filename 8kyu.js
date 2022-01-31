@@ -21,10 +21,11 @@ intended (i.e. make the first character in the string "word" upper case).
 Don't worry about numbers, special characters, or non-string types being passed to the function. The string lengths will 
 be from 1 character up to 10 characters, but will never be empty.
 */
-
-
-
-
+function capitalizeWord(word) {
+            let a = word[0].toUpperCase() + word.slice(1).toLowerCase();
+            return a;
+        } 
+console.log(capitalizeWord('word'));
 
 
 // Given a year, return the century it is in
