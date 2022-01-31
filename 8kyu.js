@@ -28,10 +28,12 @@ function capitalizeWord(word) {
 console.log(capitalizeWord('word'));
 
 
+
 // Given a year, return the century it is in
-
-
-
+function century(year) {
+  let num = year / 100;  
+  return Math.ceil(num);
+}
 
 
 // We need a function that can transform a number into a string
@@ -45,10 +47,16 @@ function numberToString(num) {
    return num.toString();
 }
 
+
+
 // Convert a Number to a String
-
-
-
+var stringToNumber = function(str){
+  return Number(str);
+}
+// 2nd way
+var stringToNumber = function(str){
+  return +str;
+}
 
 
 // Given a non-negative integer n, write a function to_binary/ToBinary which returns that number in a binary format.
