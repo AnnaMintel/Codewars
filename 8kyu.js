@@ -93,6 +93,47 @@ function opposite(number) {
 }
 
 
+// remove the spaces from the string, then return the resultant string
+function noSpace(x){
+return x.replace(/\s+/g, '')
+}
+
+
+// Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string)
+function simpleMultiplication(number) {
+      if (number % 2 == 0){
+    return number*8;
+  } else {
+    return number*9;
+  }
+}
+
+
+// Write a function called repeatStr which repeats the given string string exactly n times
+function repeatStr (n, s) {
+  return s.repeat(n);
+}
+
+
+/* Create a function finalGrade, which calculates the final grade of a student depending on two parameters: 
+a grade for the exam and a number of completed projects. */
+function finalGrade (exam, projects) {
+  let finalGrade = 0;
+  if (exam > 90 && (exam <= 100) || projects > 10){
+    return finalGrade = 100;
+  } else if (exam > 75  && projects >= 5){
+    return finalGrade = 90;
+  } else if (exam > 50 && projects >= 2){
+    return finalGrade = 75;
+  } else {
+    return finalGrade = 0;
+  }
+  
+ 
+ // When provided with a number between 0-9, return it in words
+ 
+
+
 
 
 
