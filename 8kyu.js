@@ -181,7 +181,6 @@ function updateLight(current) {
 }
 
 
-
 /* You will need a rental car in order for you to get around in your vacation. The manager of the car rental makes you some good offers.
 Every day you rent the car costs $40. If you rent the car for 7 or more days, you get $50 off your total. 
 Alternatively, if you rent the car for 3 or more days, you get $20 off your total. */
@@ -196,3 +195,30 @@ function rentalCarCost(rentDays, sum) {
   }
 }
 
+
+// Return the type of the sum of the two arguments
+function typeOfSum(a, b) {
+  switch (a,b){
+      case typeof a + typeof b:
+        return number;
+      case typeof 'a' + typeof b:
+        return string;
+       case typeof a + typeof 'b':
+        return string;
+  }
+return (typeof (a+b));
+}
+
+
+/* You were camping with your friends far away from home, but when it's time to go back, you realize 
+that your fuel is running out and the nearest pump is 50 miles away! You know that on average, your car runs on 
+about 25 miles per gallon. There are 2 gallons left. Considering these factors, write a function that tells you 
+if it is possible to get to the pump or not. Function should return true (1 in Prolog and NASM) if it is possible 
+and false (0 in Prolog and NASM) if not. The input values are always positive. */
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  if ((mpg * fuelLeft) >= distanceToPump){
+    return true;
+  } else {
+    return false;
+  }
+};
