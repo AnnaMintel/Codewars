@@ -57,9 +57,9 @@ var stringToNumber = function(str){
 
 
 // Given a non-negative integer n, write a function to_binary/ToBinary which returns that number in a binary format.
-
-
-
+function toBinary(n){
+  return Number(n.toString(2));
+}
 
 
 // Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
