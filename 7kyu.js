@@ -21,6 +21,11 @@ function removeChar(str) {
 // Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string)
 
 
+// The first three stages of a sequence are shown. The blocksize is a by a and a ≥ 1. What is the perimeter of the nth shape in the sequence (n ≥ 1) ?
+function perimeterSequence(a,n) {
+  return (a*4)*n;
+}
+
 
 
 
