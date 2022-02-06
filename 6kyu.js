@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <script>
-
+// 
         function findUniq(arr) {
   let arr1 = [];
   let arr2 = [];
@@ -30,13 +18,13 @@
                 return arr1[i];
                 break;
             }
-        }
-        
+        }   
 }
-        console.log(findUniq ([1,1,1,1,1,1,4,1,1,1]));
-      
 
-    </script>
-</body>
 
-</html>
+
+
+
+
+
+
