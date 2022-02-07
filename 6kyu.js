@@ -1,4 +1,4 @@
-// 
+// Find a unique number
         function findUniq(arr) {
   let arr1 = [];
   let arr2 = [];
