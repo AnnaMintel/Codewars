@@ -1,2 +1,2 @@
 # Codewars
-There are solved tasks from Codewars.
+There are  my training tasks from Codewars.
