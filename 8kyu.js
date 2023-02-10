@@ -239,6 +239,11 @@ const stringToNumber = function(str){
   return +str;
 }
 
+// MakeUpperCase
+function makeUpperCase(str) {
+  return str.toUpperCase();
+}
+
 
 
 
