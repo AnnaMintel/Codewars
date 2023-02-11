@@ -244,6 +244,11 @@ function makeUpperCase(str) {
   return str.toUpperCase();
 }
 
+// Sum Mixed Array
+function sumMix(x){
+  return x.reduce((num, acc) => +num + (+acc), 0)
+  }
+
 
 
 
