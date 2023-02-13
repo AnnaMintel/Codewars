@@ -250,9 +250,10 @@ function sumMix(x){
   }
 
 
-
-
-
+// stringToNumber
+const stringToNumber1 = function(str){  
+  return +str;
+}
 
 
 
